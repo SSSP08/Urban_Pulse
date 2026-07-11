@@ -18,7 +18,6 @@ UrbanPulse AI solves this problem by coordinating traffic signals, parking lot a
 - **Dynamic Traffic Signal Simulation**: Traffic signals at critical junctions (e.g. Cyber Towers, Gachibowli Circle) adaptively rotate timing phases stochastically depending on local congestion thresholds.
 - **AI-Powered Parking Recommendations**: Integrates **Google Gemini API** (`gemini-3.5-flash`) client-side to calculate current space availability, travel time, and congestion to generate optimal parking selections with confidence ratings.
 - **Interactive Route Recommendation**: Selecting any parking location dynamically generates a grid-like street path complete with glow styling and a midpoint HUD display showing estimated travel time (ETA) and traffic state.
-- **Emergency Vehicle Priority Mode (108 Mode)**: Activating 108 Emergency Mode overrides the local network to lock traffic signals to continuous green priority waves, draw a flashing red priority corridor route, and call Gemini to output a mathematical optimization summary justifying the route safety.
 - **Live Background Simulation**: Isolated asynchronous loops run on independent cadences to simulate realistic urban patterns without blocking map user interactions.
 - **Responsive Modern UI**: Dark glassmorphic HUD overlays adjust automatically across mobile, tablet, and widescreen layouts.
 
@@ -143,9 +142,6 @@ NEXT_PUBLIC_GEMINI_API_KEY=AIzaSy...your_gemini_api_key...
 ### 2. Live Route Navigation
 *Dynamic color-coded route drawing and ETA popups.*
 
-### 3. Automated 108 Preemption Corridors
-*Flashing emergency wave routes, green-wave signal locks, and AI mathematical corridor explanations.*
-
 ---
 
 ## 10. Future Scope
@@ -159,8 +155,8 @@ NEXT_PUBLIC_GEMINI_API_KEY=AIzaSy...your_gemini_api_key...
 ---
 
 ## 11. Contributors
-- *Contributor Name Placeholder 1*
-- *Contributor Name Placeholder 2*
+- Surya Srirama Prabhakar Sripada
+- Sayantan Basak
 
 ---
 
